@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="Hangfire" Version="1.7.30" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.8" />
+    <PackageReference Include="ServiceStack.Redis" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TODEB_INVOICES_PROJECT.Domain\TODEB_INVOICES_PROJECT.Domain.csproj" />
+    <ProjectReference Include="..\TODEB_INVOICES_PROJECT.Infrastructure\TODEB_INVOICES_PROJECT.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
